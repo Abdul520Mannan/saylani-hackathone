@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
 import SplashScreen from './pages/SplashScreen';
@@ -10,8 +9,6 @@ import UserAccount from './pages/user/UserAccount';
 import Login from './pages/login/Login';
 import Signup from './pages/login/Signup';
 // import AdminHome from './pages/admin/Home';
-import Product from './pages/admin/Product';
-import Setting from './pages/admin/Setting';
 import Index from './pages/admin';
 
 function App() {

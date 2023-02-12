@@ -1,8 +1,8 @@
 import { Button, Card, Col, Form, Row } from "react-bootstrap";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { useState } from "react";
 import { auth, db } from "../../firebase/firestore";
-import { collection, addDoc, doc } from "@firebase/firestore";
+import { collection, addDoc } from "@firebase/firestore";
 import { createUserWithEmailAndPassword } from "firebase/auth";
 
 export default function Signup() {
@@ -26,7 +26,7 @@ export default function Signup() {
             return;
         }
         // auth.currentUser.
-        createUserWithEmailAndPassword(auth, email, password).then(async (res) => {
+        createUserWithEmailAndPassword(auth, email, password).then(async () => {
             try {
                 const docRef = await addDoc(collection(db, "users"), {
                     name: name,

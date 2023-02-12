@@ -1,4 +1,3 @@
-import { useNavigate } from 'react-router-dom';
 import React from 'react'
 import homeImage from '../assests/images/home-icon.png'
 import addItemIcon from '../assests/images/add-item-icon.png'

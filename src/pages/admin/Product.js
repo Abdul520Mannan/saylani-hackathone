@@ -1,5 +1,5 @@
 import { addDoc, collection } from 'firebase/firestore';
-import { getDownloadURL, ref, uploadBytesResumable } from 'firebase/storage';
+import { ref, uploadBytesResumable } from 'firebase/storage';
 import React, { useState } from 'react'
 import { Button, Container, Form } from 'react-bootstrap'
 import camIcon from '../../assests/images/cam-icon.png'

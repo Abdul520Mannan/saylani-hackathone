@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 
 import { BiChevronLeft } from 'react-icons/bi';
 import rigthImg from '../assests/images/admin-nav-ri.png'

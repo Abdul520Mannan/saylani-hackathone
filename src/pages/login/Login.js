@@ -1,12 +1,10 @@
 
 import { Button, Card, Col, Form, Row } from "react-bootstrap";
-// import img from "./../assets/images/BGImage2.jpeg";
 import { Link, useNavigate } from "react-router-dom";
 import { useState } from "react";
-// import { auth } from "../fire";
-import { signInWithEmailAndPassword, signInWithPopup } from 'firebase/auth';
+import { signInWithEmailAndPassword } from 'firebase/auth';
 import { auth, db } from "../../firebase/firestore";
-import { collection, doc, where, query, onSnapshot, getDocs } from "@firebase/firestore";
+import { collection, where, query, getDocs } from "@firebase/firestore";
 
 export default function Login() {
     const [email, setEmail] = useState();

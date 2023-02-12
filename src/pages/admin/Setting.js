@@ -7,7 +7,6 @@ import camIcon from '../../assests/images/cam-icon.png'
 import { db, storage } from '../../firebase/firestore'
 import { ref, uploadBytesResumable } from 'firebase/storage'
 import { addDoc, collection, doc, getDocs, orderBy, updateDoc } from 'firebase/firestore'
-import { async } from '@firebase/util';
 
 export default function Setting() {
   const [categoryName, setCategoryName] = useState();

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Card, Container } from 'react-bootstrap'
+import { Container } from 'react-bootstrap'
 import  Button  from 'react-bootstrap/Button'
 import logo from '../assests/images/logo.png';
 export default function SplashScreen() {

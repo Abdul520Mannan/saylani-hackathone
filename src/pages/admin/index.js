@@ -6,9 +6,8 @@ import Header from '../../components/header';
 import { useNavigate } from 'react-router-dom';
 import Product from './Product';
 import Setting from './Setting';
-import { collection, getDocs, onSnapshot, orderBy, query } from 'firebase/firestore';
+import { collection, getDocs, orderBy } from 'firebase/firestore';
 import { db } from '../../firebase/firestore';
-import { async } from '@firebase/util';
 import AdminOrder from './Order';
 
 export default function Index() {
