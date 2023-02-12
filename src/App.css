@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,131 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.wrapper-card {
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.wrapper-card button {
+  margin-top: 60px;
+}
+.login-container,
+.signup-container {
+  width: 400px !important;
+}
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+.title{
+  margin-top: 40px;
+}
+.list-wrapper{
+  margin-top: 40px;
+}
+.list{
+  border: 1px solid lightgray;
+  padding: 0px 10px;
+  border-radius: 9px;
+  margin: 10px 0px;
+}
+.list-image {
+  height: 100px;
+  width: 110px;
+  object-fit: contain;
+}
+footer{
+  margin-top: 20px;
+}
+.footer-wrapper{
+  display: flex;
+    justify-content: space-between;
+    padding: 0px 33px;
+}
+.footer-column{
+  text-align: center;
+}
+
+
+
+
+
+/* products */
+.image-label{
+  height: 120px;
+    width: 100%;
+    background-color: lightgray;
+    border-radius: 12px;
+    text-align: center;
+}
+.image-icon img{
+  height: 120px;
+  width: 100%;
+  object-fit: contain;
+}
+.input-form input {
+  height: 50px;
+    border-radius: 14px;
+    background-color: lightgray;
+}
+.product-description textarea {
+  border-radius: 14px;
+    background-color: lightgray;
+}
+
+
+
+/* Update Setting */
+
+.admin-profile{
+  text-align: center;
+}
+.profile-image{
+  width: 120px;
+    object-fit: contain;
+}
+.profile-name{
+  width: 90% !important;
+  margin: 11px auto;
+  align-items: center !important;
+    /* justify-content: center; */
+}
+#user-update-name{
+  border: none;
+  border-bottom: 1px solid;
+  border-radius: 0;
+  
+}
+#user-update-name input{
+  height: 60px;
+    padding: 0;
+    text-align: center;
+}
+/* #user-update-name button{} */
+.category-image-input{
+  display: flex;
+}
+.category-image-input input{
+  height: 50px;
+  margin-right: 10px;
+    border-radius: 12px;
+    background-color: lightgray;
+}
+.category-lists-wrapper{
+  height: auto;
+    overflow: scroll;
+    max-height: 400px;
+}
+.category-list {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+    border: 1px solid lightgray;
+    border-radius: 12px;
+    padding: 10px;
+    margin: 10px 0px;
 }
